@@ -99,7 +99,7 @@ def pregunta_10(): #terminarlo
     letra_numeros = tbl0.groupby("_c1")["_c2"].apply(lambda x: ':'.join(map(str, sorted(x)))).reset_index()
 
 
-    return letra_numeros
+    return letra_numeros 
 
 print(pregunta_10())
 
